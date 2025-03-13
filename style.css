@@ -1,0 +1,90 @@
+#container{
+	width:960px;
+	margin:0 auto;
+}
+
+img{
+    margin: 0 30px 18px 0;
+	width: 40%;
+}
+
+#header{
+	height:180px;
+	margin:10px 0 0 0;
+	background:url(images/patima.jpg);
+}
+
+#content{
+	border-right:10px solid #FFD700;
+	border-left:10px solid #FFD700;
+	border-bottom:10px solid #FFD700;
+	padding:10px 20px;
+}
+
+#content td{
+	color:rgb(0, 0, 0)
+}
+#content table{
+	border:1px solid black;
+	width: 100%;
+}
+#content tr.grey{
+    background:#dddddd;
+}
+
+#content h3{
+	font-family: "Arial", "Courier New", SimSun;
+	font-weight: bold;
+}
+#content .name{
+	font-weight: bold;
+}
+
+#content .portfolio-item img{
+    width:500px;
+	height:400px;
+}
+#content .portfolio-item p{
+	color:hotpink;
+	font-family: "Arial", "Courier New", SimSun;
+}
+
+#content p.add{
+	width:200px;
+	height:auto;
+}
+
+#nav {
+	width:960px;
+	overflow:hidden;
+}
+
+#nav a {
+	width:319px;
+	height:35px;
+	float:left;
+	padding:12px 0 0 0;
+	background:#009c9c;
+	border-right:1px outset #009c9c;
+	text-align:center;
+	color:rgb(211, 171, 42);
+	text-decoration: none;
+}
+
+#nav a:hover {
+	width:319px;
+	height:35px;
+	float:left;
+	padding:12px 0 0 0;
+	background:#004b4b;
+	border-right:1px outset #004b4b;
+	text-align:center;
+	color:#FFD700;
+	text-decoration: none;
+}
+
+#footer {
+	text-align:center;
+	color:rgb(106, 159, 50);
+	font-weight: bold;
+}
